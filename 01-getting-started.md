@@ -6,20 +6,12 @@
 - Splunk Enterprise [version number]
 - OS: [Windows/Linux/Mac]
 
-## 🖥️ Setup Notes
-- Installation was [smooth / encountered issues]
-- UI exploration: Navigated to Settings > Data Inputs
-
 ## 📥 First Data Ingested
 - Source: [e.g., Windows Security Logs]
 - Index created: `windows_logs`
 - Sourcetype: `WinEventLog:Security`
 
-## 🔍 First Search
-```spl
-index=* | stats count by sourcetype
-```
-
 ## 🧠 Reflections
-- Splunk’s UI is easy to use after orientation.
-- Excited to explore SPL more.
+- Installing Splunk was very easy.
+- Ingesting logs from my esktop was also seamless.
+- I can't wait to dig in and learn as much as I can with this tool.
